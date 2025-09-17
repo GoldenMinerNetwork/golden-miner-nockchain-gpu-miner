@@ -15,12 +15,12 @@ or obtain a pubkey from an exchange that supports **nock**, such as [SafeTrade](
 
 #### Minimal Command
 ```bash
-./nock-prover --pubkey=<your-pubkey>
+./golden-miner-pool-prover --pubkey=<your-pubkey>
 ```
 
 #### Common Command
 ```bash
-./nock-prover --pubkey=<your-pubkey> --label=<group label of machine> --name=<machine name>
+./golden-miner-pool-prover --pubkey=<your-pubkey> --label=<group label of machine> --name=<machine name>
 ```
 
 #### Parameters Explained
