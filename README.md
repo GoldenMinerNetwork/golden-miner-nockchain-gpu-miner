@@ -10,7 +10,6 @@ Please visit the **Release Page** to obtain the software.
 You can generate one locally using **nockchain-wallet**,
 or obtain a pubkey from an exchange that supports **nock**, such as [SafeTrade](https://safetrade.com/), by going to the **nock deposit** page.
 
----
 
 ### Run Commands
 
@@ -23,8 +22,6 @@ or obtain a pubkey from an exchange that supports **nock**, such as [SafeTrade](
 ```bash
 ./nock-prover --pubkey=<your-pubkey> --label=<group label of machine> --name=<machine name>
 ```
-
----
 
 #### Parameters Explained
 
@@ -45,13 +42,11 @@ or obtain a pubkey from an exchange that supports **nock**, such as [SafeTrade](
   If multiple local IPs exist, one will be chosen randomly.
   **Default**: Automatically detected.
 
----
 
 ### Software Runtime Environment
 - Tested on **Ubuntu 22.04** and **Ubuntu 24.04**
 - Currently only supports **Nvidia GPU**
 
----
 
 ### Important Notes
 We use the tuple **(label, name, local-ip)** to **uniquely identify** and display your machine on the website.
