@@ -12,6 +12,10 @@ or obtain a pubkey from an exchange that supports **nock**, such as [SafeTrade](
 
 
 ### Run Commands
+First, give the software permission to run
+```bash
+chmod +x ./golden-miner-pool-prover
+```
 
 #### Minimal Command
 ```bash
