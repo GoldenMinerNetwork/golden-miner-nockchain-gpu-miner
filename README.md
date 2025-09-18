@@ -3,7 +3,7 @@ https://goldenminer.net/
 
 
 ### Download Link
-Please visit the **Release Page** to obtain the software.
+Please visit the [Release Page](https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/releases) to obtain the software.
 
 
 ### How to Get Your Pubkey
