@@ -10,7 +10,6 @@ Please visit the [Release Page](https://github.com/GoldenMinerNetwork/golden-min
 You can generate one locally using [nockchain-wallet](https://github.com/zorp-corp/nockchain?tab=readme-ov-file#install-wallet),
 or obtain a pubkey from an exchange that supports **nock**, such as [SafeTrade](https://safetrade.com/), by going to the **nock deposit** page.
 
-
 ### Run Commands
 First, give the software permission to run
 ```bash
