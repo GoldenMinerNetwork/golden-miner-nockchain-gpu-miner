@@ -1,6 +1,6 @@
 ---
 
-# Proxy Runtime Parameters and Monitoring  
+# Proxy
 
 The runtime parameters of the **proxy** are almost identical to the **client/prover**.  
 On top of the proxy, we have integrated a local monitoring service.  
