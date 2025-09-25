@@ -1,9 +1,7 @@
----
-
 # Proxy
 
-The runtime parameters of the **proxy** are almost identical to the **client/prover**.  
-On top of the proxy, we have integrated a local monitoring service.  
+The parameters of the proxy are **almost identical** to the **prover**.  
+On top of the proxy, we also have integrated a local ***monitoring service***.  
 
 ---
 
@@ -100,5 +98,3 @@ Each element has two values:
 
 ⚠️ Please make sure `proxy port +1` and `proxy port +2` are not occupied.  
 For example, if you run proxy with `--port=9999`, please make sure ports `9999, 10000, 10001` are all available.  
-
----
