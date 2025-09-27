@@ -7,7 +7,7 @@ Please visit the [Release Page](https://github.com/GoldenMinerNetwork/golden-min
 
 
 ### How to Get Your Pubkey
-You can generate one locally using [nockchain-wallet](https://github.com/zorp-corp/nockchain?tab=readme-ov-file#install-wallet)
+You can generate one locally using [nockchain-wallet](https://github.com/zorp-corp/nockchain?tab=readme-ov-file#install-wallet). If you encounter a lot of issues during compilation that you can’t resolve, and you trust us, you can download it from [here](https://github.com/GoldenMinerNetwork/nockchain-wallet/releases) . We strongly recommend that you compile directly from the source code.
 
 ### Proxy
 ***If you have multiple machines, we strongly recommend using the [proxy](https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/blob/main/proxy.md) software. It will effectively reduce your network requirements and help you achieve a more stable hashrate.***
