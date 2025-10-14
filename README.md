@@ -42,6 +42,7 @@ chmod +x ./golden-miner-pool-prover
   Specifies how many CPU threads to allocate per GPU card.
   Affects task parallelism and memory usage.
   **Default**: Automatically determined based on your GPU memory and CPU cores.
+  This value is usually set slightly higher than necessary. If you have limited memory and want to run on multiple GPUs at the same time, you can reduce this value — typically setting it to 1 or 2 should be sufficient.
 
 - `--local-ip=<local ip>`:
   Specifies the machine’s local network IP address.
