@@ -97,4 +97,5 @@ Each element has two values:
 ---
 
 ⚠️ Please make sure `proxy port +1` and `proxy port +2` are not occupied.  
-For example, if you run proxy with `--port=9999`, please make sure ports `9999, 10000, 10001` are all available.  
+For example, if you run proxy with `--port=9999`, please make sure ports `9999, 10000, 10001` are all available.
+If you’re using a public IP address, you should open the corresponding port in your firewall.
