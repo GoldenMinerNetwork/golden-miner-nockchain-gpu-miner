@@ -49,6 +49,7 @@ then a typical client command to connect to proxy would be:
 ```bash
 ./golden-miner-pool-prover --proxy=192.168.1.1:9999 --label=cluster-A --name=A0
 ```  
+In general, if your prover is pointed to a proxy, you shouldn’t set the `--pubkey` parameter on the prover. If you do set it, that pubkey must be the same as the one specified when the proxy starts.
 
 ---
 
