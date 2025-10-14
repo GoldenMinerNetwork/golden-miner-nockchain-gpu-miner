@@ -47,6 +47,11 @@ chmod +x ./golden-miner-pool-prover
   If multiple local IPs exist, one will be chosen randomly.
   **Default**: Automatically detected.
 
+#### Select GPUs
+You can use the `CUDA_VISIBLE_DEVICES` environment variable to specify which GPUs you want the software to recognize. 
+For example:
+`'CUDA_VISIBLE_DEVICES=0,1 ./golden-miner-pool-prover --pubkey=....'`
+means the software will only recognize and run on the first and second GPUs.
 
 ### Software Runtime Environment
 - Tested on **Ubuntu 22.04** and **Ubuntu 24.04**
