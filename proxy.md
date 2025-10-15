@@ -21,12 +21,12 @@ By default, the proxy runs on port `9999`.
 
 **Common command:**  
 ```bash
-./golden-miner-pool-proxy --pubkey=<your-pubkey> --name=<machine name> --port=<port>
+./golden-miner-pool-proxy --pubkey=<your-pubkey> --name=<proxy name> --port=<port>
 ```  
 
 **Example:**  
 ```bash
-./golden-miner-pool-proxy --port=9999 --pubkey=2ytTMttzXpc79BU9vtVNFkE3TWL15zedV8WZUHSpJwCLzUoHkh7GdZ74CFj2JbQg1gMfZxQCT5bRiDAk5ZHpDUDtD2GTxJQciTuNPuXc9hEm4cGv53kCEyxVETaiBW2HiPoX --name=proxy-a
+./golden-miner-pool-proxy --port=9999 --name=proxy-A --pubkey=2ytTMttzXpc79BU9vtVNFkE3TWL15zedV8WZUHSpJwCLzUoHkh7GdZ74CFj2JbQg1gMfZxQCT5bRiDAk5ZHpDUDtD2GTxJQciTuNPuXc9hEm4cGv53kCEyxVETaiBW2HiPoX
 ```  
 
 **Other parameters:**  
