@@ -7,6 +7,8 @@ On top of the proxy, we also have integrated a local ***monitoring service***.
 
 ### Run Proxy  
 
+**Note**: If you have more than 1,000 machines connecting to the same proxy, you need to adjust the Linux file descriptor limit first. You can do this by running `ulimit -n 20000` in the shell to raise the limit to 20,000, and then start the proxy software! Otherwise, you may encounter a `Too many open files (os error 24)` problem.
+
 First, make sure the proxy has execution permissions:  
 
 ```bash
