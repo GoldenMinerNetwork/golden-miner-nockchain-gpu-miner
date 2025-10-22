@@ -28,6 +28,17 @@ chmod +x ./golden-miner-pool-prover
 ./golden-miner-pool-prover --pubkey=<your-pubkey> --label=<group label of machine> --name=<machine name>
 ```
 
+Starting from version 0.1.5+1, if there is a `config.toml` file in the software's running directory, its configuration will be given priority
+The configurations in `config.toml` are similar to the parameters.
+example `config.toml`:
+```toml
+pubkey = "2ytTMttzXpc79BU9vtVNFkE3TWL15zedV8WZUHSpJwCLzUoHkh7GdZ74CFj2JbQg1gMfZxQCT5bRiDAk5ZHpDUDtD2GTxJQciTuNPuXc9hEm4cGv53kCEyxVETaiBW2HiPoX"
+label = "cluster-A"
+name = "machine-0"
+threads-per-card = 2
+```
+You can also configure other command-line parameters in `config.toml`. The proxy supports the same functionality.
+
 #### Parameters Explained
 
 - `--label`: Marks which group/cluster the machine belongs to
