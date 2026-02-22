@@ -48,6 +48,12 @@ You can also configure other command-line parameters in `config.toml`. The proxy
   **Default**: Local hostname
 
 #### Additional Optional Parameters
+- `--mode=<auto|gpu|hybrid>`:
+  - **auto** – Automatically selects the optimal mode based on your CPU and GPU configuration.  
+  - **hybrid** – Utilizes both CPU and GPU at the same time. If your CPU is powerful, this mode may deliver around **10% performance improvement** compared to pure GPU mode.  
+  - **gpu** – Runs entirely on the GPU with **no CPU dependency**.
+- `--gpu`:
+  Specify which GPUs to use for execution.  For example, use `--gpu=0,1` to run the software on the first and second GPU. 
 - `--threads-per-card=<n>`:
   Specifies how many CPU threads to allocate per GPU card.
   Affects task parallelism and memory usage.
@@ -58,12 +64,6 @@ You can also configure other command-line parameters in `config.toml`. The proxy
   Specifies the machine’s local network IP address.
   If multiple local IPs exist, one will be chosen randomly.
   **Default**: Automatically detected.
-
-#### Select GPUs
-You can use the `CUDA_VISIBLE_DEVICES` environment variable to specify which GPUs you want the software to recognize. 
-For example:
-`'CUDA_VISIBLE_DEVICES=0,1 ./golden-miner-pool-prover --pubkey=....'`
-means the software will only recognize and run on the first and second GPUs.
 
 ### Software Runtime Environment
 - Tested on **Ubuntu 22.04** and **Ubuntu 24.04**
