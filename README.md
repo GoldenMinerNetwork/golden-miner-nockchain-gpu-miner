@@ -53,12 +53,10 @@ You can also configure other command-line parameters in `config.toml`. The proxy
   **Default**: Local hostname
 
 #### Additional Optional Parameters
-- `--mode=<auto|gpu|hybrid>`:
-  - **auto** – Automatically selects the optimal mode based on your CPU and GPU configuration.  
-  - **hybrid** – Utilizes both CPU and GPU at the same time. If your CPU is powerful, this mode may deliver around **10% performance improvement** compared to pure GPU mode.  
-  - **gpu** – Runs entirely on the GPU with **no CPU dependency**.
 - `--gpu`:
   Specify which GPUs to use for execution.  For example, use `--gpu=0,1` to run the software on the first and second GPU. 
+- `--gpu-memory-percentage`:
+  Max GPU memory usage (percentage). Accepts any integer from 1 to 100. Setting this too low may cause the application to crash. The default value (100) is recommended.
 - `--threads-per-card=<n>`:
   Specifies how many CPU threads to allocate per GPU card.
   Affects task parallelism and memory usage.
