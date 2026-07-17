@@ -75,7 +75,7 @@ To set up a custom HiveOS Flight Sheet, you need to fill in the following parame
 - `Hash algorithm`: No selection required.
 - `Wallet and worker template`: Enter any value (this field cannot be left empty).
 - `Pool URL`: Enter any value (this field cannot be left empty).
-- `Extra config arguments`: Please refer to the parameters mentioned earlier in the documentation, for example: --pubkey=<your address>
+- `Extra config arguments`: Please refer to the parameters mentioned earlier in the documentation, for example: --pubkey=your-address
 
 ![HiveOS example](https://private-user-images.githubusercontent.com/231620692/524764589-3363d191-6d41-4fc7-9861-b06b0888f4d7.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODQzMTU3MzcsIm5iZiI6MTc4NDMxNTQzNywicGF0aCI6Ii8yMzE2MjA2OTIvNTI0NzY0NTg5LTMzNjNkMTkxLTZkNDEtNGZjNy05ODYxLWIwNmIwODg4ZjRkNy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcxN1QxOTEwMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02Mjk2YjAwMDgyNzZiMDM3MjkyYTQwMGM1NWQ1ZTc5OGNhOGUxMGZlNTUyNWU1Y2I1NWMyZjg2MGQyNzRjMGQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.Nv9udnPmx8R47uQrFx4aI4eKlIbJeeI_Eorg35YbxxQ)
 
