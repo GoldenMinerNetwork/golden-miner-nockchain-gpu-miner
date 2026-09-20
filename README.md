@@ -104,6 +104,20 @@ Alternatively, you can directly use the following JSON configuration. Replace <y
 ```
 ![HiveOS example](https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/blob/main/hiveos.jpeg)
 
+### Reference Hashrate and Power
+
+The table below shows the reference hashrates and power limits for various GPUs using **v2.0.1**.
+
+| GPU | Hashrate(MH/s) | Power |
+| :---: | :---: | :---: |
+| RTX 5090 | 110 | 575 W |
+| RTX 4090 | 76 | 480 W |
+| RTX 3090 | 30 | 300 W |
+| CMP 50hx | 10.5 | 140 W |
+| Tesla P100 | 3.3 | 220 W |
+
+> Actual hashrate may vary depending on GPU settings, driver version, power limit, temperature, and system configuration.
+
 
 ### Software Runtime Environment
 - Tested on **Ubuntu 22.04** and **Ubuntu 24.04**
